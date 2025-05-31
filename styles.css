@@ -172,7 +172,7 @@ body {
 .rodape {
     background-color:#CDFFD3;
     text-align: center;
-    padding: 90px;
+    padding: 40px;
     margin-bottom: 0px;
 }
 
@@ -182,7 +182,7 @@ body {
     margin-top: 10px;
 }
 .rodape .col-md-4 {
-    padding-top: 20px;  
+    padding-top: 40px;  
     font-weight: bold;
 }
 
@@ -191,14 +191,23 @@ body {
     margin-right: 20px;
 }
 
+.carousel a{
+    color: white;
+}
+
+.carousel a:hover{
+    color:#53C2BA;
+}
+
+
 
 .maps{
-    margin-bottom: 100px;
+    margin-bottom: 65px;
 }
 
 .maps p{
     text-align: center;
-    margin-top: 35px;
+    margin-top: 50px;
     font-weight: bold;
 }
 
@@ -220,7 +229,6 @@ body {
     background-color: #CDFFD3;
     text-align: center;
     font-weight: bold;
-    padding: 10px;
     font-size: 17px;
     margin-bottom: 40px;
     padding-top: 50px;
@@ -230,7 +238,8 @@ body {
 .info p{
 margin-top: 20px;
 margin-bottom: 20px;
-padding-bottom: 0px;
+padding-bottom: 50px;
+
 }
 
 .requisitos{
@@ -240,3 +249,83 @@ padding-bottom: 0px;
 .descricao{
     margin-top: 10px;
 }
+
+
+.dropdown .btn {
+        background-color: white;
+        color: black;
+        width: 100%;
+        margin-top: 60px;
+
+    } 
+.dropdown ul {
+        width: 100%;
+    }
+
+.button .btn{
+    background-color: #CDFFD3;
+    color: black;
+}
+
+.nomargin{
+    margin-bottom: 0px;
+}
+
+
+.carousel-caption h5 {
+    font-size: 40px;
+    margin-bottom: 0;
+}
+.carousel-caption p {
+    font-size: 25px;
+}
+
+
+.btn-success {
+    background-color: #53C2BA;
+    color: white;
+}
+
+
+.video h3{
+margin-bottom: 40px;
+margin-top: 20px;
+font-style: italic;
+font-weight: bold;
+}
+
+
+    .votacao {
+        margin-bottom: 50px;
+      padding: 20px;
+      max-width: 400px;
+      border-radius: 10px;
+      font-size: 17px;
+      text-align: center;
+    }
+
+    .votacao h4{
+        font-weight: bold;
+    }
+    
+    .resultado {
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+
+
+
+
+@media (max-width: 1000px) { 
+    .mv p{
+        display: none;
+    }
+ }
+
+
+@media (max-width: 1400px) { 
+    .mv img {
+        display: none;
+    }
+ }
